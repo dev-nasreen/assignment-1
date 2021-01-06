@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+nav{
+    margin: 20px 0;
+}
+ul{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+ul li{
+   
+}
+ul li a{
+    padding: 10px 20px;
+    color: #3C3C3C;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+}
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.banner-area{
+    margin:50px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.hello{
+    padding: 40px 10px;
+}
+.hello h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color:#363958;
+}
+.hello h1 span{
+    color:#F46060
+}
+.link{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    background-image: linear-gradient(#FF8063, #F46060);
+    border-radius: 5px;
+    text-transform: capitalize;
+    box-shadow: 2px 2px 5px gray;
+}
+ p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+    color:#3E3E3E;
+
+}
+.half-width img{
+    width: 90%;
+    height: auto;
+    max-width: 100%;
+}
+.about-area{
+    margin:50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about{
+    padding: 100px 20px;
+}
+ h2{
+    font-family: 'Oswald', sans-serif;
+    color:#363958;
+    font-weight: 400;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.latest-work-area h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+h2 span{
+    color:#F46060;
+}
+.latest-work-area{
+    background-color:#E5E5E5;
+    padding: 100px;
+}
+.single-project{
+    width:30%;
+    margin-right: 3%;
+    display: flex;
+    float:left;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px grey;
+}
+.single-project img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+}
+.project-item{
+    display: flex;
+    flex-direction: column;
+
+}
+.project-item h3{
+    color:#363958;
+}
+.footer-area{
+    margin: 100px auto;
+    text-align: center;
+}
+.inquiry{
+    width: 60%;
+    margin: 20px auto;
+    background: url("images/in-bg.png") no-repeat scroll 0 0 / 100% 100%;
+    height: 250px;
+    position: relative;
+}
+.inquiry h4{
+    position: absolute;
+    top:15%;
+    left:10%;
+    color:#fff;
+    font-size: 40px; 
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.inquiry .link{
+    position: absolute;
+    right: 50px;
+    top: 40%;
+}
+.social{
+    width: 50%;
+    margin: 20px auto;
+}
+.social h5{
+    color:#696871;
+    font-size: 18px; 
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.social h6 a{
+    color:#363958;
+    font-size: 22px; 
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.social-link a{
+    padding: 0 10px;
+}
+.social-link a img{
+    width: 5%;
+}
